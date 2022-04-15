@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name" : "altair-graphql-plugin-nette",
-  "version" : "0.0.1",
+  "version" : "0.0.4",
   "display_name": "GraphQL Nette",
   "description" : "GraphQL Nette plugin for Altair GraphQL",
   "author_email" : "info@majksa.cz",
