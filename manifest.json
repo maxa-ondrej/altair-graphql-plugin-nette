@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name" : "altair-graphql-plugin-nette",
+  "version" : "0.0.1",
+  "display_name": "GraphQL Nette",
+  "description" : "GraphQL Nette plugin for Altair GraphQL",
+  "author_email" : "info@majksa.cz",
+  "author" : "Ondřej Maxa",
+  "type": "header",
+  "sidebar_opts": {
+    "element_name": "altair-graphql-plugin-nette",
+    "icon": "assets/icon.png"
+  },
+  "scripts": [
+    "dist/main.js"
+  ],
+  "plugin_class": "NetteAltairPlugin"
+}

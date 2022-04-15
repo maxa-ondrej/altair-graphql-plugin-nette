@@ -1,6 +1,21 @@
 {
-  "name": "altair-graphql-plugin-nette",
+  "name": "@majksa/altair-graphql-plugin-nette",
   "version": "0.0.1",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "./dist/main.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --mode=production",
+    "dev": "NODE_ENV=development webpack --mode=development",
+    "prepublishOnly": "npm run build",
+    "web-server": "http-server -p 8002 --cors"
+  },
+  "devDependencies": {
+    "altair-graphql-plugin": "^4.4.1",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "babel-loader": "^8.0.5",
+    "http-server": "^0.11.1",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
 }
